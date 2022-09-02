@@ -4,7 +4,7 @@ import TeacherSidebar from './TeacherSidebar';
 import {useState,useEffect} from 'react';
 import axios from 'axios';
 
-const baseUrl='http://localhost:8000/api';
+const baseUrl='MRabdalla.pythonanywhere.com/api';
 
 function AddCourse(){
     const [cats,setCats]=useState([]);

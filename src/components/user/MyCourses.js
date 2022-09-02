@@ -2,7 +2,7 @@ import {NavLink} from 'react-router-dom';
 import Sidebar from './Sidebar';
 import {useEffect,useState} from 'react'
 import axios from 'axios';
-const baseUrl='http://127.0.0.1:8000/api';
+const baseUrl='MRabdalla.pythonanywhere.com/api';
 
 function MyCourses(){
     const[courseData,setcourseData]=useState([]);

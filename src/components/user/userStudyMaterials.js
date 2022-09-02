@@ -4,7 +4,7 @@ import {useEffect,useState} from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
-const baseUrl='http://127.0.0.1:8000/api';
+const baseUrl='MRabdalla.pythonanywhere.com/api';
 
 function UserStudyMaterials(){
     const[studyData,setstudyData]=useState([]);

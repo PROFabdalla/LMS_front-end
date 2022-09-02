@@ -6,7 +6,7 @@ import {useState} from 'react'
 import Swal from 'sweetalert2'
 
 import { useParams } from 'react-router-dom';
-const baseUrl='http://localhost:8000/api';
+const baseUrl='MRabdalla.pythonanywhere.com/api';
 function AddChapter(){
     const [chapterData,setChaptereData] = useState({
         title       :'',

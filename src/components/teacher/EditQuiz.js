@@ -5,7 +5,7 @@ import {useState,useEffect} from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import Swal from 'sweetalert2';
-const baseUrl='http://localhost:8000/api';
+const baseUrl='MRabdalla.pythonanywhere.com/api';
 
 function EditQuiz(){
     const [quizData,setquizData] = useState({

@@ -3,8 +3,8 @@ import {useEffect,useState} from 'react'
 import axios from 'axios';
 import Swal from 'sweetalert2'
 
-const siteUrl='http://127.0.0.1:8000/';
-const baseUrl='http://127.0.0.1:8000/api';
+const siteUrl='MRabdalla.pythonanywhere.com/';
+const baseUrl='MRabdalla.pythonanywhere.com/api';
 
 
 function CourseDetail(){

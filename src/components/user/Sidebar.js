@@ -1,7 +1,7 @@
 import {NavLink} from 'react-router-dom';
 import {useEffect,useState} from 'react';
 import axios from 'axios';
-const baseUrl='http://127.0.0.1:8000/api';
+const baseUrl='MRabdalla.pythonanywhere.com/api';
 function Sidebar(){
     const [notifData,setnotifData]=useState([]);
     const studentId=localStorage.getItem('studentId');

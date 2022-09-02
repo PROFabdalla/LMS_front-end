@@ -2,7 +2,7 @@ import '../login.css';
 import {NavLink} from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-const baseUrl='http://127.0.0.1:8000/api/student/';
+const baseUrl='MRabdalla.pythonanywhere.com/api/student/';
 
 function Register(){
     const [studentData,setstudentData]=useState({

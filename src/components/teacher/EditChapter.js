@@ -6,7 +6,7 @@ import {useEffect, useState} from 'react'
 import { useParams } from 'react-router-dom';
 import Swal from 'sweetalert2'
 
-const baseUrl='http://localhost:8000/api';
+const baseUrl='MRabdalla.pythonanywhere.com/api';
 function EditChapter(){
     const [chapterData,setChaptereData] = useState({
         course      :'',

@@ -2,7 +2,7 @@ import '../login.css';
 // import {NavLink} from 'react-router-dom';
 import React, { useState } from 'react';
 import axios from 'axios';
-const baseUrl='http://127.0.0.1:8000/api/teacher/';
+const baseUrl='MRabdalla.pythonanywhere.com/api/teacher/';
 
 function TeacherRegister(){
     const [teacherData,setteacherData]=useState({

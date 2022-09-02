@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 import { useState } from "react";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-const baseUrl = "http://127.0.0.1:8000/api";
+const baseUrl = "MRabdalla.pythonanywhere.com/api";
 
 function TeacherDashboard() {
   const [dashboardData, setdashboardData] = useState([]);
